@@ -63,10 +63,10 @@ const LoginPage = () => {
                 </div>
                 <Input ref={passwordRef} id="password" type="password" required />
               </div>
-              <Button type="submit" className="w-full">
+              <Button onClick={handleLoginSubmit}   type="submit" className="w-full">
                 Login
               </Button>
-              <Button  onClick={handleLoginSubmit}   variant="outline" className="w-full">
+              <Button  variant="outline" className="w-full">
                 Login with Google
               </Button>
             </div>
